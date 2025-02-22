@@ -121,7 +121,7 @@ All screenshots demonstrate the input (requests) and output (responses) for each
 ### Video Demonstration
 Watch a video demonstrating the execution of all tasks for Task 1:
 In this video it covers Contains all the execution of task one by one
-- **Download Video to watch (if under 100MB)**: <video controls src="All_Task_Execution_Video.mp4" title="Title"></video>
+- **Download Video to watch (if under 100MB)**: ![alt text](<Video/All_Task_Execution_Video.mp4>)
 
 
 Notes
