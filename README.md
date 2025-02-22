@@ -49,8 +49,8 @@ Send: Click "Send" in Postman to retrieve tasks.
 Response: Returns a JSON array or object of tasks (e.g., [{"id":"001","name":"Vishnuus intmca","owner":"Vishnuus","command":"echo Hello_Vishnu","taskExecutions":[]}]).
 
 Screenshot:
-![alt text](<fetching id values before the values given(will give error).png>)
-![alt text](<GET-task(get all tasks).png>)
+![alt text](<screenshots/fetching id values before the values given(will give error).png>)
+![alt text](<screenshots/GET-task(get all tasks).png>)
 
 2. PUT /tasks
 Description: Creates or updates a task. The request body must be a JSON object with id, name, owner, and command fields. Commands are validated to block unsafe/malicious code (e.g., "rm" or "sudo").
@@ -68,7 +68,7 @@ Send: Click "Send" in Postman to create or update the task.
 Response: Returns the created or updated task in JSON format.
 Screenshot:
 
-![alt text](<PUT_create a task.png>)
+![alt text](<screenshots/PUT_create a task.png>)
 
 3. DELETE /tasks/{id}
 Description: Deletes a task by its ID.
@@ -83,7 +83,7 @@ Send: Click "Send" in Postman to delete the task.
 Response: Returns 200 OK if successful, or 404 Not Found if the task doesn’t exist.
 Screenshot:
 
-![alt text](DELETE_TASK.png)
+![alt text](screenshots/DELETE_TASK.png)
 
 4. GET /tasks?name={string}
 Description: Searches for tasks where the name contains the provided string (case-sensitive).
@@ -98,7 +98,7 @@ Send: Click "Send" in Postman to search for tasks.
 Response: Returns a JSON array of matching tasks.
 
 Screenshot:
-![alt text](GET(TASK)_BY_NAME.png)
+![alt text](screenshots/GET(TASK)_BY_NAME.png)
 
 5. PUT /tasks/{id}/execute
 Description: Executes the shell command of a task, stores execution details (start time, end time, and output) in taskExecutions, and returns the updated task.
@@ -113,7 +113,7 @@ Send: Click "Send" in Postman to execute the task.
 Response: Returns the task with updated taskExecutions (e.g., {"output":"Hello_Vishnu"}).
 
 Screenshot:
-![alt text](<PUT_execute a task_BY_ID.png>)
+![alt text](<screenshots/PUT_execute a task_BY_ID.png>)
 
 Screenshots
 All screenshots demonstrate the input (requests) and output (responses) for each endpoint in Postman, including my name ("Vishnuus") and the current date/time for verification. The screenshots are stored in the screenshots folder and linked above.
