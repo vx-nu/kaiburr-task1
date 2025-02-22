@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Task 1 - Java REST API for Task Management
 
 ## Overview
