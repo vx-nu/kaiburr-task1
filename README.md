@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Task 1 - Java REST API for Task Management
 
 ## Overview
@@ -132,3 +133,4 @@ This documentation adheres to Kaiburr’s requirement for high-quality code and 
 Contact
 For questions or feedback, contact Vishnuus at [vishnuus934@gmail.com] 
 
+=======
