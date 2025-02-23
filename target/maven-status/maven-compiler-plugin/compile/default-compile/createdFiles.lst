@@ -1,0 +1,5 @@
+com\vishnuus\task_api\controller\TaskController.class
+com\vishnuus\task_api\model\TaskExecution.class
+com\vishnuus\task_api\repository\TaskRepository.class
+com\vishnuus\task_api\model\Task.class
+com\vishnuus\task_api\TaskApiApplication.class
