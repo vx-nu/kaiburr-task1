@@ -1,4 +1,4 @@
-package com.vishnuus.task_api.repository;  // Changed from taskapi to task_api
+package com.vishnuus.task_api.repository; 
 
 import com.vishnuus.task_api.model.Task;
 import org.springframework.data.mongodb.repository.MongoRepository;
