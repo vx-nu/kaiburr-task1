@@ -123,10 +123,6 @@ Watch a video demonstrating the execution of all tasks for Task 1:
 **External Link (if over 100MB)**: [All Task Execution Video](https://www.mediafire.com/file/e26p9pc5wt95da8/All_Task_Execution_Video.mp4/file)
 
 
-Notes
-The application uses MongoDB to persist tasks. Ensure MongoDB is running on localhost:27017.
-Commands are validated to prevent unsafe operations, enhancing security.
-This documentation adheres to Kaiburr’s requirement for high-quality code and documentation, prioritized for clarity and professionalism.
 
 Contact
 For questions or feedback, contact Vishnuus at [vishnuus934@gmail.com] 
